@@ -1,0 +1,81 @@
+# Exercism solutions repository
+# Keep exercise source files, manifests, tests, and .exercism/config.json tracked.
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# C# / .NET (including exercises nested several folders deep)
+[Bb]in/
+[Oo]bj/
+TestResults/
+*.dll
+*.pdb
+*.cache
+*.nupkg
+*.snupkg
+packages/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.venv/
+venv/
+.coverage
+.coverage.*
+htmlcov/
+
+# JavaScript / TypeScript
+node_modules/
+.npm/
+.yarn/cache/
+.pnpm-store/
+.next/
+*.tsbuildinfo
+
+# Java / Kotlin / Gradle
+.gradle/
+*.class
+*.jar
+
+# Rust
+/target/
+**/target/
+*.rs.bk
+
+# Ruby
+.bundle/
+.vendor/
+
+# Elixir
+_build/
+deps/
+.elixir_ls/
+
+# Coverage and temporary output
+coverage/
+*.coverage
+*.coveragexml
+*.log
+*.tmp
+*.bak
+
+# Local secrets (if used)
+.env
+.env.local
+.env.*.local
